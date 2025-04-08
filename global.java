@@ -32,12 +32,13 @@ public class global
   //System.out.println (a); 
   //System.out.println (b); 
 
-  int a= 5;
-  int b=6;
-  a=(a+b)-a;
+  //int a= 5;
+  //int b=6;
+  //a=(a+b)-a;
  // b= (a+b)-b;
-  System.out.println(a);
+ // System.out.println(a);
  // System.out.println(b);
 
+  System.err.println("hello Java");
 }
 }
