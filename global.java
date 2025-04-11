@@ -1,6 +1,6 @@
 public class global
 {
-  public static void main(String[] args)
+  public static void main(String[] args) 
   {
     //int a= 25;
     //byte b= (byte) a;
@@ -39,6 +39,9 @@ public class global
  // System.out.println(a);
  // System.out.println(b);
 
-  System.err.println("hello Java");
+  System.out.println("hello Java");
+  
+
+
 }
 }
