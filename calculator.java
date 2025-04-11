@@ -13,13 +13,13 @@ public class calculator {
         switch(c)
         {
             case '+' :
-            System.out.println("a+b");
+            System.out.println(a+b);
             case '-':
-            System.out.println("a-b");
+            System.out.println(a-b);
             case '*':
-            System.out.println("a*b");
+            System.out.println(a*b);
             case '/':
-            System.out.println("a/b");
+            System.out.println(a/b);
             default:
             System.out.println("invalid");
 
