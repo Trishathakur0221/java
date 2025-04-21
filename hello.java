@@ -4,7 +4,8 @@ public class hello
      {
        int a=25;
        byte b=(byte) a;
+       System.out.println(a);
      }
-     System.out.println(b);
+     
 }    
 
