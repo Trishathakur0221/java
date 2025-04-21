@@ -10,5 +10,6 @@ public class array6 {
       System.out.println(sum[k]);
     }
 
+ }
 }
-}
+
