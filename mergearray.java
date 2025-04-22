@@ -1,4 +1,5 @@
-public class mergearray {
+public class mergearray 
+{
     public static void main(String[] args) {
         int [] arr1= {1,2,3,4};
         int [] arr2= {5,6,7,8};
@@ -11,7 +12,8 @@ public class mergearray {
        }
        for(int i=0;arr3.length;i++){
         System.out.println(arr3);
-       }
+        }
     }
-    
 }
+    
+

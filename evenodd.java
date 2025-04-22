@@ -1,7 +1,7 @@
 public class evenodd {
     public static void main(String [] args)
     {
-        int n = 10;
+        int n = 19;
         if(n %2== 0)
             System.out.println("even");
          else  
