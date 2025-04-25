@@ -5,6 +5,7 @@ public class maxdigitafterthesum {
     }
     public static void main(String [] args) {
         sum(8,6);
+       int count =0;
     }
 
     
