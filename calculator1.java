@@ -20,5 +20,4 @@ public class calculator1 {
        obj.mul(10, 5); 
        obj.div(10, 5);  
     }
-    
 }
