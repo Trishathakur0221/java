@@ -17,6 +17,8 @@ public class constructor {
     student obj=new student("John", 20);
    
    obj.display();
+   
+
  }
     
 }
