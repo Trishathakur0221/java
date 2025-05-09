@@ -1,6 +1,6 @@
 class employee{
-     public String name;
-     public int id;
+     private String name;
+     private int id;
   private int salary;
    public void setname(String name){
     this.name=name;
