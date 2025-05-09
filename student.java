@@ -19,7 +19,7 @@ public class student {
     public static void main(String[] args) {
         studentdetail obj=new studentdetail();
         obj.setname("trisha");
-        obj.setmarks(609);
+        obj.setmarks(89);
         System.out.println(obj.getname());
         System.out.println(obj.getmarks());
 
