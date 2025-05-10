@@ -21,7 +21,6 @@ class employee{
      return salary;
    }
 
-   
 }
 public class employedetail {
     public static void main(String[] args) {
