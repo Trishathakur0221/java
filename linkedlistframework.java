@@ -1,8 +1,9 @@
 import java.util.LinkedList;
 import java.util.*;
+
 public class linkedlistframework {
-    public static void main(String [] args){
-       LinkedList<Integer> list = new LinkedList<>();
+    public static void main(String[] args) {
+        LinkedList<Integer> list = new LinkedList<>();
         list.add(-7);
         list.add(1);
         list.add(5);
@@ -26,5 +27,5 @@ public class linkedlistframework {
         System.out.println("LinkedList after clearing: " + list);
 
     }
-    
+
 }
