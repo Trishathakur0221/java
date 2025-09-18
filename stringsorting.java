@@ -13,7 +13,7 @@ public class stringsorting {
         }
          for(String i:str)
         {
-                System.out.print(i);
+                System.out.print(i + " ");
         }
     }
 }
