@@ -7,6 +7,5 @@ public class sumusingdouble {
     double x5=94;
     double sum = (x1 + x2 + x3 + x4 + x5)/5;
     System.out.println("The sum is: " + sum);
-
-    }
+   }
 }
