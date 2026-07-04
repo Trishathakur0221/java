@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.HashSet;
+import java.util.Iterator;
 public class Hashset2 {
     public static void main(String[] args) {
         HashSet <Integer> set = new HashSet <>();
@@ -13,15 +15,21 @@ public class Hashset2 {
         System.out.println("Set: " + set);
         System.out.println("Set size: " + set.size());
         
-        //searching for an element
-        if(set.contains(9)){
-            System.out.println("Element found in the set.");
-        } else {
-            System.out.println("Element not found in the set.");
-        }
+        // //searching for an element
+        // if(set.contains(9)){
+        //     System.out.println("Element found in the set.");
+        // } else {
+        //     System.out.println("Element not found in the set.");
+        // }
 
-        //removing an element
-        set.remove(1); // Remove the element 1
-        System.out.println("Set after removing 1: " + set);
+        // //removing an element
+        // set.remove(1); // Remove the element 1
+        // System.out.println("Set after removing 1: " + set);
+
+        //iterator to traverse the set
+        Iterator it= set.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
     }
 }
